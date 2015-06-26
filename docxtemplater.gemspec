@@ -9,8 +9,8 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Alan Heywood"]
   spec.email         = ["alan@softweb.net.au"]
 
-  spec.summary       = %q{TODO: Write a short summary, because Rubygems requires one.}
-  spec.description   = %q{TODO: Write a longer description or delete this line.}
+  spec.summary       = %q{A thin wrapper over the nodejs docxtemplater}
+  spec.description   = %q{A ruby interface to the nodejs, command line https://github.com/open-xml-templating/docxtemplater}
   spec.homepage      = "TODO: Put your gem's website or public repo URL here."
   spec.license       = "MIT"
 
@@ -29,4 +29,8 @@ Gem::Specification.new do |spec|
 
   spec.add_development_dependency "bundler", "~> 1.9"
   spec.add_development_dependency "rake", "~> 10.0"
+  spec.add_development_dependency "rspec"
+  spec.add_development_dependency "pry"
+  spec.add_development_dependency "pry-byebug"
+  spec.add_development_dependency "pry-stack_explorer"
 end
