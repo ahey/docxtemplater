@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = %q{A thin wrapper over the nodejs docxtemplater}
   spec.description   = %q{A ruby interface to the nodejs, command line https://github.com/open-xml-templating/docxtemplater}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.homepage      = "https://github.com/ahey/docxtemplater"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org by setting 'allowed_push_host', or
